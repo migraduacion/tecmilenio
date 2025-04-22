@@ -16,7 +16,8 @@ window.sr = ScrollReveal();
 		distance: '40px' //distancia
 
 
-	}); 
+	});
+
 			sr.reveal('.playpause', {
 		duration: 2000, //tiempo
 		delay:800,
@@ -373,8 +374,8 @@ sr.reveal('#textolibre2', {
 
 	}); 
 			sr.reveal('.form-register', {
-		duration: 1000, //tiempo
-		//delay:800,
+		duration: 2500, //tiempo
+		delay:800,
 		origin: 'top', //origen
 		distance: '300px', //distancia
 		
@@ -480,6 +481,31 @@ sr.reveal('.textilibre', {
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
+		
+
+	});
+
+		sr.reveal('.codigo', {
+		duration: 3000, //tiempo
+		delay:900,
+		origin: 'left', //origen
+		distance: '100px' //distancia
+		
+
+	});
+			sr.reveal('.codigo2', {
+		duration: 3000, //tiempo
+		delay:1000,
+		origin: 'top', //origen
+		distance: '200px' //distancia
+		
+
+	});
+			sr.reveal('.codigo3', {
+		duration: 3000, //tiempo
+		delay:1000,
+		origin: 'right', //origen
+		distance: '50px' //distancia
 		
 
 	});

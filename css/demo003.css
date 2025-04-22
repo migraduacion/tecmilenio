@@ -1583,7 +1583,7 @@ audio::-webkit-media-controls-volume-slider {
   justify-content: center;
   align-items: center;
   box-shadow: 1px 1px 1px #8d6b2f;
-  z-index: 9999;
+  z-index: -99;
 }
 .inicialesFoto{
   color:#BFB291;
