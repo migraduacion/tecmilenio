@@ -680,7 +680,7 @@ font-family: 'Open Sans', sans-serif;
 
   text-align: center;
  
-  background-color: transparent;
+  background-color: #1b1a1f;
   z-index: 1;
   outline: thick double #8d6b2f;
 }
@@ -780,7 +780,7 @@ outline: thick double #8d6b2f;
 
 .textodondeycuando{
   color:#fff;
-  font-size: 14px;
+  font-size: 17px;
 font-family: 'Playfair Display', serif;
 
 }
