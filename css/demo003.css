@@ -66,7 +66,7 @@ z-index: 99px;
 .playpause .button {
   width: 25px;
   height: 25px;
-  background: #cbcbcb;
+  background: #fff;
   transition: inherit;
   clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
 }
@@ -403,7 +403,7 @@ font-weight: 400;
    letter-spacing: 5px;
  color:#FFF;
   font-size: 13px;
-  background-color: #828282; 
+  background: linear-gradient(to left, #646464, #cbcbcb);
 height:50px; 
 display:flex;
 justify-content: center; 
@@ -908,7 +908,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   border-color: #828282;
   text-decoration: none;
   color:#fff;
-  background-color: #828282; 
+background: linear-gradient(to right, #646464, #cbcbcb);
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -937,7 +937,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 .btnComoLlegar{
   text-decoration: none;
   color:#FFF;
-  background-color: #828282; 
+  background: linear-gradient(to right, #646464, #cbcbcb);
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
@@ -989,7 +989,7 @@ letter-spacing: 3px;
 .btnComoLlegar{
 text-decoration: none;
   color:#FFF;
-  background-color: #828282; 
+ background: linear-gradient(to right, #646464, #cbcbcb);
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
@@ -1021,7 +1021,7 @@ margin-left: -10px;
 .btnComoLlegar{
 text-decoration: none;
   color:#FFF;
-  background-color: #828282; 
+  background: linear-gradient(to right, #646464, #cbcbcb);
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
@@ -1223,7 +1223,7 @@ margin-top: 0px;
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#828282;
+    background: linear-gradient(to right, #646464, #e4e4e4);
     border-color: #828282;
     text-indent:-9999px;
     display:none;
@@ -1575,12 +1575,12 @@ audio::-webkit-media-controls-volume-slider {
   color:#D6C7B9;
   font-size: 50px;
   height: 30px;
-  background-color:#828282;
+  background-color:transparent;
   text-align: center;
    display:flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 1px #828282;
+  box-shadow: 0px 0px 0px #828282;
   z-index: -99;
 }
 .inicialesFoto{
@@ -1734,7 +1734,7 @@ letter-spacing: 2px;
 .btnComoLlegar{
 text-decoration: none;
   color:#FFF;
-  background-color: #828282; 
+  background: linear-gradient(to right, #646464, #cbcbcb);
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
