@@ -52,23 +52,21 @@ z-index: 99px;
 }.playpause {
   padding: 15px;
   border-radius: 50%;
-  background: #000;
+  background: #1b1a1f;
   cursor: pointer;
   transition: 0.3s ease-in-out;
   align-items: right;
-  -webkit-box-shadow: -2px 4px 12px 0px rgba(0,0,0,0.54);
--moz-box-shadow: -2px 4px 12px 0px rgba(0,0,0,0.54);
-box-shadow: -2px 4px 12px 0px rgba(0,0,0,0.54);
+
 }
 
 .playpause:hover {
-  background: #000;
+  background: #1b1a1f;
 }
 
 .playpause .button {
   width: 25px;
   height: 25px;
-  background: #354F52;
+  background: #cbcbcb;
   transition: inherit;
   clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
 }
@@ -405,7 +403,7 @@ font-weight: 400;
    letter-spacing: 5px;
  color:#FFF;
   font-size: 13px;
-  background-color: #8d6b2f; 
+  background-color: #828282; 
 height:50px; 
 display:flex;
 justify-content: center; 
@@ -682,7 +680,7 @@ font-family: 'Open Sans', sans-serif;
  
   background-color: #1b1a1f;
   z-index: ;
-  outline: thick double #8d6b2f;
+  outline: thick double #a8a8a8;
 }
 
 .itinerario{
@@ -705,10 +703,10 @@ font-family: 'Open Sans', sans-serif;
   border-bottom: 2px solid #E5CA5E;
   border-right: 2px solid #E5CA5E;
   border-left: 2px solid #E5CA5E;
-  border-color: #8d6b2f;
+  border-color: #a8a8a8;
   color:black;
   background-color: #1b1a1f;
-outline: thick double #8d6b2f;
+outline: thick double #a8a8a8;
 
 }
 .mesaregalos{
@@ -907,10 +905,10 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   border-bottom: 0px solid ;
   border-right: 0px solid ;
   border-left: 0px solid ;
-  border-color: #8d6b2f;
+  border-color: #828282;
   text-decoration: none;
   color:#fff;
-  background-color: #8d6b2f; 
+  background-color: #828282; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -923,23 +921,23 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 
 .btnForm:hover{
 
-  border-top: 0px solid ;
-  border-bottom: 0px solid ;
-  border-right: 0px solid ;
-  border-left: 0px solid ;
-  border-color: #fff;
+  border-top: 1px solid ;
+  border-bottom: 1px solid ;
+  border-right: 1px solid ;
+  border-left: 1px solid ;
+  border-color: #a8a8a8;
   text-decoration: none;
   background-color: transparent; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
-  color:#fff;
+  color:#a8a8a8;
   height: 45px;
 
 }
 .btnComoLlegar{
   text-decoration: none;
   color:#FFF;
-  background-color: #8d6b2f; 
+  background-color: #828282; 
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
@@ -954,14 +952,14 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   background-color: transparent; 
   font-family: 'Arapey', serif; 
   font-size: 14px;
-  color:#262a31;
+  color:#a8a8a8;
   height: 45px;
   letter-spacing: 4px;
    border-top: 1px solid ;
   border-bottom: 1px solid ;
   border-right: 1px solid ;
   border-left: 1px solid ;
-  border-color: #262a31;
+  border-color: #a8a8a8;
 }
 .mujeres2{
 
@@ -991,7 +989,7 @@ letter-spacing: 3px;
 .btnComoLlegar{
 text-decoration: none;
   color:#FFF;
-  background-color: #8d6b2f; 
+  background-color: #828282; 
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
@@ -1023,7 +1021,7 @@ margin-left: -10px;
 .btnComoLlegar{
 text-decoration: none;
   color:#FFF;
-  background-color: #8d6b2f; 
+  background-color: #828282; 
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
@@ -1225,8 +1223,8 @@ margin-top: 0px;
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#8d6b2f;
-    border-color: #8d6b2f;
+    background-color:#828282;
+    border-color: #828282;
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:60px;
@@ -1247,7 +1245,7 @@ margin-top: 0px;
     z-index:9999;
 }
 #scroll:hover {
-    background-color:#6F7163;
+    background-color:#a8a8a8;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
     border-bottom-color:#354F52;
@@ -1295,7 +1293,7 @@ margin-bottom:;}
 
   font-family: 'calibri', serif;
   color: #6F7163;
-  outline: thick double #8d6b2f;
+  outline: thick double #a8a8a8;
 }
 
 .controls {
@@ -1306,8 +1304,8 @@ margin-bottom:;}
   margin-bottom: 16px;
   border-top: 0px solid #E5E5E5;
   border-right: 0px solid #E5E5E5;
-  border-bottom: 3px solid #8d6b2f;
-  border-left: 3px solid #8d6b2f;
+  border-bottom: 3px solid #a8a8a8;
+  border-left: 3px solid #a8a8a8;
   
 font-family: 'calibri', serif;
   font-size: 18px;
@@ -1351,8 +1349,8 @@ font-family: 'calibri', serif;
   font-size: 20px;
   border-top: 0px solid #E5E5E5;
   border-right: 0px solid #E5E5E5;
-  border-bottom: 3px solid #8d6b2f;
-  border-left: 3px solid #8d6b2f;
+  border-bottom: 3px solid #a8a8a8;
+  border-left: 3px solid #a8a8a8;
 }
 
 .custom-select2 select {
@@ -1577,12 +1575,12 @@ audio::-webkit-media-controls-volume-slider {
   color:#D6C7B9;
   font-size: 50px;
   height: 30px;
-  background-color:#8d6b2f;
+  background-color:#828282;
   text-align: center;
    display:flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 1px #8d6b2f;
+  box-shadow: 1px 1px 1px #828282;
   z-index: -99;
 }
 .inicialesFoto{
@@ -1594,18 +1592,18 @@ audio::-webkit-media-controls-volume-slider {
   justify-content: center;
   align-items: center;
   z-index: 99;
-outline: thick double #8d6b2f;
+outline: thick double #828282;
 
 box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
 
 }
-.texto8d6b2f  1b1a1f{
+.textoa8a8a8  1b1a1f{
   font-size: 35px;
   font-weight: 500;
   letter-spacing: 3px;
 }
 @media (max-width:320px){
-  .texto8d6b2f  1b1a1f{
+  .textoa8a8a8  1b1a1f{
   font-size: 30px;
   font-weight: 500;
   position: sticky;top: 20px;
@@ -1736,7 +1734,7 @@ letter-spacing: 2px;
 .btnComoLlegar{
 text-decoration: none;
   color:#FFF;
-  background-color: #8d6b2f; 
+  background-color: #828282; 
   font-family: 'Arapey', serif; 
   font-size: 14px;
    height: 45px;
@@ -1788,7 +1786,7 @@ letter-spacing: 4px;
  }
 
 @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
-  .8d6b2f  1b1a1fFoto{
+  .a8a8a8  1b1a1fFoto{
   color:#BFB291;
  
   background-color:#000;
@@ -1812,7 +1810,7 @@ letter-spacing: 4px;
 }
 }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
-   .8d6b2f  1b1a1fFoto{
+   .a8a8a8  1b1a1fFoto{
   color:#BFB291;
  
   background-color:#000;
@@ -1836,7 +1834,7 @@ letter-spacing: 4px;
 }
 }
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {/*iPAD PRO*/
-    .8d6b2f  1b1a1fFoto{
+    .a8a8a8  1b1a1fFoto{
   color:#BFB291;
  
   background-color:#000;
@@ -1860,7 +1858,7 @@ letter-spacing: 4px;
 }
 }
 @media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {/*SURFACE PRO7*/
-      .8d6b2f  1b1a1fFoto{
+      .a8a8a8  1b1a1fFoto{
   color:#BFB291;
  
   background-color:#000;
@@ -1884,7 +1882,7 @@ letter-spacing: 4px;
 }
 }
 @media all and (device-width: 853px) and (device-height: 1280px) and (orientation:portrait) {/*ASUS ZENBOOK*/
-    .8d6b2f  1b1a1fFoto{
+    .a8a8a8  1b1a1fFoto{
   color:#BFB291;
  
   background-color:#000;
@@ -1909,7 +1907,7 @@ letter-spacing: 4px;
 }
 
 @media (min-width: 1200px) { /*laptop*/
-   .8d6b2f  1b1a1fFoto{
+   .a8a8a8  1b1a1fFoto{
   color:#BFB291;
  
   background-color:#000;
