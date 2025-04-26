@@ -457,11 +457,257 @@ $(document).ready(function(){
 	});
 
 
-
+$(document).ready(function () {
+ 
+    (function ($) {
+ 
+        $('#filtrar').keyup(function () {
+ 
+             var rex = new RegExp($(this).val(), 'i');
+ 
+             $('.buscar  li').hide();
+ 
+             $('.buscar  li').filter(function () {
+               return rex.test($(this).text());
+             }).show();
+ 
+        })
+ 
+    }(jQuery));
+ 
+});
 	
 });
- function copiar(){
+function MontserratRochaGonzalez() {
+    window.open("pases/MontserratRochaGonzalez.html", "_self");        
+}
+function MariannVillarrealMarin() {
+    window.open("pases/MariannVillarrealMarin.html", "_self");        
+}
+function JenirethHerreraOrtiz() {
+    window.open("pases/JenirethHerreraOrtiz.html", "_self");        
+}
+function LiborioAyalaCabrera() {
+    window.open("pases/LiborioAyalaCabrera.html", "_self");        
+}
+function AlexiaAdrianaAcostaGarza() {
+    window.open("pases/AlexiaAdrianaAcostaGarza.html", "_self");        
+}
+function SofiaMenaGonzalezSaravia() {
+    window.open("pases/SofiaMenaGonzalezSaravia.html", "_self");        
+}
+function personas7() {
+    window.open("pases/inicio7.html", "_self");        
+}
+function personas8() {
+    window.open("pases/inicio8.html", "_self");        
+}
+function personas9() {
+    window.open("pases/inicio9.html", "_self");        
+}
+
+function personas10() {
+    window.open("pases/FamSolis.html", "_self");        
+}
+function personas11() {
+    window.open("pases/FamLeon.html", "_self");        
+}
+function personas12() {
+    window.open("pases/FamChaidez.html", "_self");        
+}
+function personas13() {
+    window.open("pases/FamItd.html", "_self");        
+}
+function personas14() {
+    window.open("pases/LosChavorrucos.html", "_self");        
+}
+
+ function copiarMontserratRochaGonzalez(){
   var origen = document.getElementById('target1');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarMariannVillarrealMarin(){
+  var origen = document.getElementById('target2');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarJenirethHerreraOrtiz(){
+  var origen = document.getElementById('target3');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarLiborioAyalaCabrera(){
+  var origen = document.getElementById('target4');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarAlexiaAdrianaAcostaGarza(){
+  var origen = document.getElementById('target5');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiarSofiaMenaGonzalezSaravia(){
+  var origen = document.getElementById('target6');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar7(){
+  var origen = document.getElementById('target7');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar8(){
+  var origen = document.getElementById('target8');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar9(){
+  var origen = document.getElementById('target9');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+
+ function copiar10(){
+  var origen = document.getElementById('target10');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar11(){
+  var origen = document.getElementById('target11');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar12(){
+  var origen = document.getElementById('target12');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar13(){
+  var origen = document.getElementById('target13');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar14(){
+  var origen = document.getElementById('target14');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
