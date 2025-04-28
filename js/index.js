@@ -481,20 +481,38 @@ $(document).ready(function () {
 function MontserratRochaGonzalez() {
     window.open("pases/MontserratRochaGonzalez.html", "_self");        
 }
+function MontserratRochaGonzalezConfirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/1LedGl5HQusBtWczXjZ45GMa9H5NBdzEBwMJ2Ksgt8wQ/edit?usp=drive_link", "_self");        
+}
 function MariannVillarrealMarin() {
     window.open("pases/MariannVillarrealMarin.html", "_self");        
+}
+function MariannVillarrealMarinConfirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/1inOUVH8HXc4ucCkeCBDFNwyzFsZPjFl06xpcwKnB32I/edit?usp=drive_link", "_self");        
 }
 function JenirethHerreraOrtiz() {
     window.open("pases/JenirethHerreraOrtiz.html", "_self");        
 }
+function JenirethHerreraOrtizConfirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/10xPePK4_ccJ7cvml684ZmCrhHVemyqUZerRAD9Ujfc8/edit?usp=drive_link", "_self");        
+}
 function LiborioAyalaCabrera() {
     window.open("pases/LiborioAyalaCabrera.html", "_self");        
+}
+function LiborioAyalaCabreraConfirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/1jMePmgIwBx5b13juZEpUj4nvcVNhKZlT393QPGhOaco/edit?usp=drive_link", "_self");        
 }
 function AlexiaAdrianaAcostaGarza() {
     window.open("pases/AlexiaAdrianaAcostaGarza.html", "_self");        
 }
+function AlexiaAdrianaAcostaGarzaConfirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/1JMXmvD-9mRSwWDVsYOFBsHZH10Ql36zoRFewxK8nrRw/edit?usp=drive_link", "_self");        
+}
 function SofiaMenaGonzalezSaravia() {
     window.open("pases/SofiaMenaGonzalezSaravia.html", "_self");        
+}
+function SofiaMenaGonzalezSaraviaConfirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/1M-sGGoAz7YXoW1eMfK8pLoYOI5lkXysPGqmLapxeYxA/edit?usp=drive_link", "_self");        
 }
 function personas7() {
     window.open("pases/inicio7.html", "_self");        
