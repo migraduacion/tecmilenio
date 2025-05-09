@@ -514,8 +514,8 @@ function SofiaMenaGonzalezSaravia() {
 function SofiaMenaGonzalezSaraviaConfirmaciones() {
     window.open("https://docs.google.com/spreadsheets/d/1M-sGGoAz7YXoW1eMfK8pLoYOI5lkXysPGqmLapxeYxA/edit?usp=drive_link", "_self");        
 }
-function personas7() {
-    window.open("pases/inicio7.html", "_self");        
+function Maestros() {
+    window.open("pases/Maestros.html", "_self");        
 }
 function personas8() {
     window.open("pases/inicio8.html", "_self");        
@@ -624,7 +624,7 @@ function personas14() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar7(){
+ function copiarMaestros(){
   var origen = document.getElementById('target7');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
